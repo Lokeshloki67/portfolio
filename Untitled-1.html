@@ -1,15 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> namma sjc</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lokeshwaran Y - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-    <h1>hii</h1>
-    <h2>hii</h2>
-    <h3>hii</h3>
-    <h4>hii</h4>
-    <p>hii>
+  <section class="hero">
+    <div class="container">
+      <h1>Lokeshwaran Y</h1>
+      <h2>Web Developer & React Native Enthusiast</h2>
+      <p>Pudukkottai, Tamil Nadu, India</p>
+    </div>
+  </section>
+
+  <section class="about container section">
+    <h2>About Me</h2>
+    <p>
+      Highly motivated Web Developer skilled in HTML, CSS, JavaScript, Python, and SQL, currently pursuing MCA at St. Joseph’s College. I’m passionate about building responsive, user-centric applications with real-world impact.
+    </p>
+  </section>
+
+  <section class="projects container section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <a href="https://github.com/Lokeshloki67/E-Waste-Management-System" target="_blank" class="project-card">
+        <i class="fas fa-recycle fa-2x"></i>
+        <h3>E-Waste Management System</h3>
+        <p>HTML, CSS, JavaScript, Bootstrap, SQL</p>
+      </a>
+      <a href="https://github.com/Lokeshloki67/Tab-Survival" target="_blank" class="project-card">
+        <i class="fas fa-gamepad fa-2x"></i>
+        <h3>Tab Survival</h3>
+        <p>React Native (Expo)</p>
+      </a>
+      <a href="https://github.com/Lokeshloki67/News-App" target="_blank" class="project-card">
+        <i class="fas fa-newspaper fa-2x"></i>
+        <h3>News App</h3>
+        <p>React Native</p>
+      </a>
+      <a href="https://github.com/Lokeshloki67/Fitness-App" target="_blank" class="project-card">
+        <i class="fas fa-dumbbell fa-2x"></i>
+        <h3>Fitness App</h3>
+        <p>React Native</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="skills container section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fab fa-html5"></i>
+        <h4>HTML</h4>
+        <p>Semantic and accessible markup to build responsive layouts.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-css3-alt"></i>
+        <h4>CSS</h4>
+        <p>Stylish, responsive, and modern UI design using Flex & Grid.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-js"></i>
+        <h4>JavaScript</h4>
+        <p>Dynamic behavior, DOM manipulation, and interactivity.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-react"></i>
+        <h4>React</h4>
+        <p>Component-based UI development for efficient apps.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-database"></i>
+        <h4>SQL</h4>
+        <p>Database management, CRUD operations, and joins.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-python"></i>
+        <h4>Python</h4>
+        <p>Problem solving, scripting, and data automation.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-bootstrap"></i>
+        <h4>Bootstrap</h4>
+        <p>Pre-built responsive components and grid layout system.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-mobile-alt"></i>
+        <h4>React Native</h4>
+        <p>Cross-platform mobile development using JavaScript & React.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact container section">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:lokeshyogaraja@gmail.com">lokeshyogaraja@gmail.com</a></p>
+    <p>Phone: <a href="tel:+919344686494">+91 93446 86494</a></p>
+    <p>
+      LinkedIn:
+      <a href="https://www.linkedin.com/in/lokesh-waran-y" target="_blank">linkedin.com/in/lokesh-waran-y</a>
+    </p>
+    <p>
+      GitHub:
+      <a href="https://github.com/Lokeshloki67" target="_blank">github.com/Lokeshloki67</a>
+    </p>
+  </section>
+
+  <footer class="container">
+    <p>&copy; 2025 Lokeshwaran Y. All rights reserved.</p>
+  </footer>
 </body>
 </html>
+<style>
+  /* General Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f172a;
+  color: #f1f5f9;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.section {
+  border-bottom: 1px solid #334155;
+  padding-bottom: 60px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #facc15;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2.2rem;
+  color: #38bdf8;
+  margin-bottom: 20px;
+  border-left: 5px solid #0ea5e9;
+  padding-left: 15px;
+}
+
+h3 {
+  margin-top: 10px;
+  color: #f8fafc;
+}
+
+p, a {
+  font-size: 1rem;
+  color: #cbd5e1;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #1e293b, #0f172a);
+  text-align: center;
+  padding: 100px 20px 50px;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #94a3b8;
+}
+
+/* Projects */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #334155;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  background: #2e3b56;
+}
+
+.project-card i {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+/* Skills */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.skill-card {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease, background 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+  background-color: #273449;
+}
+
+.skill-card i {
+  font-size: 2.2rem;
+  color: #ffcc70;
+  margin-bottom: 12px;
+}
+
+.skill-card h4 {
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.skill-card p {
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  max-height: 0;
+}
+
+.skill-card:hover p {
+  opacity: 1;
+  max-height: 100px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 0;
+  border-top: 1px solid #334155;
+  font-size: 0.9rem;
+}
+
+</style>
